@@ -1,6 +1,6 @@
 # MISP to Jira Automation
 
-This project demonstrates how to automatically create Jira issues from threat intelligence data (IoCs) published in MISP (Malware Information Sharing Platform).
+This project demonstrates how to automatically create Jira issues from threat intelligence data (IoCs) published in MISP.
 
 ## What It Does
 
