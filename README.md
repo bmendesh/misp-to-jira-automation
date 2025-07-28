@@ -13,11 +13,8 @@ When a new IoC is tagged in MISP for review, it triggers a webhook that sends th
 
 ## Workflow
 
-```plaintext
 [MISP IoC] → [Webhook Trigger] → [Jira Automation] → [SOC Task]
 
 ## Security Note
 
 This project is for demonstration only and **does not contain any sensitive credentials or production data**.
-
----
