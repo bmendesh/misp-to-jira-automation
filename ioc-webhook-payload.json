@@ -1,0 +1,7 @@
+{
+  "ioc": "malicious-ip.com",
+  "type": "domain",
+  "threat_level": "high",
+  "description": "Malicious domain observed in phishing campaign",
+  "tags": ["SOC-review"]
+}
