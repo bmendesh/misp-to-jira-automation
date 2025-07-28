@@ -11,6 +11,11 @@ When a new IoC is tagged in MISP for review, it triggers a webhook that sends th
 - `jira-automation/automation-rule.json` – Example Jira automation rule (Incoming Webhook → Create Issue)
 - `misp-example-payload/ioc-webhook-payload.json` – Sample data payload sent from MISP
 
+## Workflow
+
+```plaintext
+[MISP IoC] → [Webhook Trigger] → [Jira Automation] → [SOC Task]
+
 ## Security Note
 
 This project is for demonstration only and **does not contain any sensitive credentials or production data**.
