@@ -1,2 +1,18 @@
-# misp-to-jira-automation
-Auto-create Jira issues from MISP IoCs using webhook automation
+# MISP to Jira Automation
+
+This project demonstrates how to automatically create Jira issues from threat intelligence data (IoCs) published in MISP (Malware Information Sharing Platform).
+
+## What It Does
+
+When a new IoC is tagged in MISP for review, it triggers a webhook that sends the IoC data to Jira. A Jira Automation rule then creates a task in the SOC project for investigation.
+
+## Project Structure
+
+- `jira-automation/automation-rule.json` – Example Jira automation rule (Incoming Webhook → Create Issue)
+- `misp-example-payload/ioc-webhook-payload.json` – Sample data payload sent from MISP
+
+## Security Note
+
+This project is for demonstration only and **does not contain any sensitive credentials or production data**.
+
+---
